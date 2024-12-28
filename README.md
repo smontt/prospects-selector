@@ -12,8 +12,8 @@ _Importing the CSV file is done automatically when launching the server (one tim
 _The CSV file must be attached to the main folder_
 
 
-## Calculo del Score
-CRITERIOS
+## Score Calculation
+CRITERIOS / CRITERIA
 
 Años de experiencia: Cuanto más experiencia, mayor probabilidad de éxito.
 
@@ -26,6 +26,18 @@ Tamaño de la empresa: Las grandes empresas pueden tener más recursos, pero las
 Para que los factores sean comparables, se realizó una normalizacion de datos.
 
 En las empresas existen tres niveles de decisión: el primer nivel es el estratégico, formado por la Dirección General, así como las direcciones de área, el segundo nivel es el táctico o gerencial y, por último, el nivel operativo. De acuerdo a ese criterio se otorgaron los pesos de los cargos.
+
+_Years of experience: The more experience, the greater the probability of success._
+
+_Industry: Classification according to its weight in the Market._
+
+_Job position: If the position has more responsibilities or autonomy in decision-making, greater weight is given._
+
+_Company size: Large companies may have more resources, but small ones may be more agile._
+
+_In order for the factors to be comparable, data normalization was carried out._
+
+_In companies there are three levels of decision-making: the first level is the strategic level, formed by the General Management, as well as the area management, the second level is the tactical or managerial level and, finally, the operational level. The weights of the positions were given according to this criterion._
 
 ### Implementation
 
@@ -66,6 +78,14 @@ Ejecutar "npm run server" para hacerlo correr en local
 
 Se lanzara en http://localhost:5000
 
+_Go to the "backend" folder (cd backend) and run "npm install"_
+
+_IMPORTANT: Before running the server, launch mongoDB locally, using the **mongod** command in the console_
+
+_Run "npm run server" to run it locally_
+
+_It will be launched at http://localhost:5000_
+
 ## Frontend
 Aplicación basica de React
 
@@ -74,6 +94,14 @@ Posicionarse en la carpeta "client" (cd client) y ejecutar "npm install"
 Ejecutar "npm start" para hacerlo correr en local
 
 Se lanzara en http://localhost:3000
+
+_Basic React application_
+
+_Go to the "client" folder (cd client) and run "npm install"_
+
+_Run "npm start" to run it locally_
+
+_It will be launched at http://localhost:3000_
 
 ### Dependencies
 
@@ -85,7 +113,7 @@ Se lanzara en http://localhost:3000
  
  "web-vitals": "^2.1.4"
 
-## Variables de Configuración
+## Configuration Variables
 
 MONGO_URI = 'mongodb://127.0.0.1:27017/prospects'
 
@@ -93,10 +121,10 @@ ORIGIN_CORS = 'http://localhost:3000'
 
 PORT = 5000
 
-## Versionado
+## Versioning
 
 Version 1.0.0 - Upload 12/12/2024
 
-## Autor
+## Author
 
 **Sandra Monserrat**
