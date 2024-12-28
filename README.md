@@ -5,6 +5,13 @@ _Minimal full-stack prototype using Node.js, Express, MongoDB, and React_
 ## Backend Info
 La importacion del archivo CSV se realiza en forma automatica al lanzar el servidor (una sola vez)
 
+El archivo CSV debe adjuntarse al folder principal
+
+<span style="color:red;">Importing the CSV file is done automatically when launching the server (one time only)</span>
+
+<span style="color:red;">The CSV file must be attached to the main folder</span>
+
+
 ## Calculo del Score
 CRITERIOS
 
@@ -78,7 +85,7 @@ Se lanzara en http://localhost:3000
  
  "web-vitals": "^2.1.4"
 
-## Varibles de Configuración
+## Variables de Configuración
 
 MONGO_URI = 'mongodb://127.0.0.1:27017/prospects'
 
