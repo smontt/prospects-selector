@@ -7,9 +7,9 @@ La importacion del archivo CSV se realiza en forma automatica al lanzar el servi
 
 El archivo CSV debe adjuntarse al folder principal
 
-<span style="color:red;">Importing the CSV file is done automatically when launching the server (one time only)</span>
+_Importing the CSV file is done automatically when launching the server (one time only)_
 
-<span style="color:red;">The CSV file must be attached to the main folder</span>
+_The CSV file must be attached to the main folder_
 
 
 ## Calculo del Score
